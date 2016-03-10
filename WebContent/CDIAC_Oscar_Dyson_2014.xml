@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x_tags>
+  <User>
+    <Name>Alex Kozyr</Name>
+    <Email>kozyr@ornl.gov</Email>
+  </User>
+  <Investigator>
+    <Name>Alin, Simone R.</Name>
+    <Organization>NOAA/PMEL</Organization>
+    <Address>7600 Sand Point Way NE Seattle, WA 98115</Address>
+    <Phone>1(206) 526-6819</Phone>
+    <Email>simone.r.alin@noaa.gov</Email>
+  </Investigator>
+ <Investigator>
+    <Name>Cosca, Catherine E.</Name>
+    <Organization>NOAA/PMEL</Organization>
+    <Address>7600 Sand Point Way NE Seattle, WA  98115</Address>
+    <Phone>(206) 526-6183</Phone>
+    <Email>cathy.cosca@noaa.gov</Email>
+  </Investigator>
+  <Investigator>
+    <Name>Feely, Richard A.</Name>
+    <Organization>NOAA/PMEL</Organization>
+    <Address>7600 Sand Point Way NE Seattle, WA 98115</Address>
+    <Phone>(206) 526-6214</Phone>
+    <Email>Richard.A.Feely@noaa.gov</Email>
+  </Investigator>
+  <Dataset_Info>
+    <Dataset_ID>COASTAL_Oscar_Dyson_2014</Dataset_ID>
+    <Funding_Info>NOAA's Ocean Acidification Program</Funding_Info>
+    <Submission_Dates>
+      <Initial_Submission>20160105</Initial_Submission>
+      <Revised_Submission>20160105</Revised_Submission>
+    </Submission_Dates>
+  </Dataset_Info>
+  <Cruise_Info>
+    <Experiment>
+      <Experiment_Name>DY1402 (330A20140303), DY1403 (330A20140314), DY1404 (330A20140405), DY1405 (330A20140507), DY1406 (330A20140520), DY1407_L1 (330A20140616), DY1407_L2 (330A20140704), DY1407_L3 (330A20140727)</Experiment_Name>
+      <Experiment_Type>OA Coastal Cruises</Experiment_Type>
+      <Platform_Type>Research Ship</Platform_Type>
+      <Co2_Instrument_type>LiCor</Co2_Instrument_type>
+      <Cruise>
+        <Cruise_ID>33OA20140303</Cruise_ID>
+        <Cruise_Info>NOAA PMEL OA Cruises</Cruise_Info>
+        <Geographical_Coverage>
+          <Geographical_Region>Pacific Ocean</Geographical_Region>
+          <Bounds>
+            <Westernmost_Longitude>179.08</Westernmost_Longitude>
+            <Easternmost_Longitude>-151.745</Easternmost_Longitude>
+            <Northernmost_Latitude>62.391</Northernmost_Latitude>
+            <Southernmost_Latitude>52.841</Southernmost_Latitude>
+          </Bounds>
+        </Geographical_Coverage>
+        <Temporal_Coverage>
+          <Start_Date>20140303</Start_Date>
+          <End_Date>20140813</End_Date>
+        </Temporal_Coverage>
+      </Cruise>
+    </Experiment>
+    <Vessel>
+      <Vessel_Name>R/V Oscar Dyson</Vessel_Name>
+      <Vessel_ID>33OA</Vessel_ID>
+      <Vessel_Owner>NOAA</Vessel_Owner>
+    </Vessel>
+  </Cruise_Info>
+  <Variables_Info>
+    <Variable>
+      <Variable_Name>XCO2_WAT</Variable_Name>
+      <Description_of_Variable>PPM</Description_of_Variable>
+    </Variable>
+    <Variable>
+      <Variable_Name>XCO2_AIR</Variable_Name>
+      <Description_of_Variable>PPM</Description_of_Variable>
+    </Variable>
+    <Variable>
+      <Variable_Name>XCO2_AIR_INTERP</Variable_Name>
+      <Description_of_Variable>PPM</Description_of_Variable>
+    </Variable>
+    <Variable>
+      <Variable_Name>EQ_PRE</Variable_Name>
+      <Description_of_Variable>HPA</Description_of_Variable>
+    </Variable>
+    <Variable>
+      <Variable_Name>ATM_PRE</Variable_Name>
+      <Description_of_Variable>HPA</Description_of_Variable>
+    </Variable>
+    <Variable>
+      <Variable_Name>EQ_TMP</Variable_Name>
+      <Description_of_Variable>DEG_C</Description_of_Variable>
+    </Variable>
+    <Variable>
+      <Variable_Name>SST</Variable_Name>
+      <Description_of_Variable>DEG_C</Description_of_Variable>
+    </Variable>
+    <Variable>
+      <Variable_Name>SSS</Variable_Name>
+      <Description_of_Variable>Sea surface salinity</Description_of_Variable>
+    </Variable>
+    <Variable>
+      <Variable_Name>FCO2_WAT_SST</Variable_Name>
+      <Description_of_Variable>UATM</Description_of_Variable>
+    </Variable>
+    <Variable>
+      <Variable_Name>FCO2_AIR</Variable_Name>
+      <Description_of_Variable>UATM</Description_of_Variable>
+    </Variable>
+    <Variable>
+      <Variable_Name>DEL_FCO2</Variable_Name>
+      <Description_of_Variable>UATM</Description_of_Variable>
+    </Variable>
+    <Variable>
+      <Variable_Name>PCO2_WAT_SST</Variable_Name>
+      <Description_of_Variable>UATM</Description_of_Variable>
+    </Variable>
+    <Variable>
+      <Variable_Name>PCO2_AIR</Variable_Name>
+      <Description_of_Variable>UATM</Description_of_Variable>
+    </Variable>
+    <Variable>
+      <Variable_Name>DEL_PCO2</Variable_Name>
+      <Description_of_Variable>UATM</Description_of_Variable>
+    </Variable>
+  </Variables_Info>
+  <Method_Description>
+    <Equilibrator_Design>
+      <System_Manufacturer_Description>General Oceanics 8050</System_Manufacturer_Description>
+      <Location_of_Sea_Water_Intake>Bow</Location_of_Sea_Water_Intake>
+      <Equilibrator_Type>Shower head</Equilibrator_Type>
+      <Equilibrator_Volume>0.5 L</Equilibrator_Volume>
+      <Water_Flow_Rate>3 L/min</Water_Flow_Rate>
+      <Headspace_Gas_Flow_Rate>0.8 L/m</Headspace_Gas_Flow_Rate>
+      <Vented>Yes</Vented>
+      <Drying_Method_for_CO2_in_water>From Pierrot, et al.: Sample air is dried in a condenser that is cooled to 4-5 oC by a Peltier thermoelectric device. This partially dried air flushes a chamber that is vented and remains at ambient pressure. The dried air inside the chamber is used as the counter flow in the Nafion tubing. A vacuum pump pulls the dried air from the chamber first through a fixed restrictor and then through the Nafion tubes, thus creating an absolute pressure and corresponding partial pressure gradient for water vapor across the membrane. When atmospheric air is measured, some of the partially dried air (80- 100 ml/min) is pushed through a Nafion tube, the analyzer and out a vent instead of flushing the chamber. The headspace gas, when being measured, is circulated in a closed loop through the analyzer at a rate similar to that of the atmospheric air (80-100 ml/min). It is dried first in the condenser, then in a Nafion tube prior to entering the analyzer and being returned to the equilibrator. Typically, the water mole fraction (xH2O) in the dried gas is about 2 parts per thousand (ppt), which corresponds to a dew point temperature of about -20 degrees Celsius. The liquid water condensed out of the sample air streams is removed by peristaltic pumps into the vent equilibrator at intervals determined by the user.</Drying_Method_for_CO2_in_water>
+    </Equilibrator_Design>
+    <CO2_Sensors>
+      <CO2_Sensor>
+        <Measurement_Method>Absolute, non-dispersive infrared (NDIR) gas analyzer</Measurement_Method>
+        <Model>IRG4-0847</Model>
+        <Frequency>Every 180 sec</Frequency>
+        <Resolution_Water>0.3 uatm</Resolution_Water>
+        <Uncertainty_Water>0.2 uatm</Uncertainty_Water>
+        <Resolution_Air>0.2 uatm</Resolution_Air>
+        <Uncertainty_Air>0.2 uatm</Uncertainty_Air>
+        <Manufacturer_of_Calibration_Gas>LL83539, 245.43 ppm; LL154363, 420.76 ppm; LL108056, 501.998 ppm; LL63968, 659.096 ppm</Manufacturer_of_Calibration_Gas>
+        <Method_References>Pierrot, D.; Neill, C.; Sullivan, K.; Castle, R.; Wanninkhof, R.; Luger, H.; Johannessen, T.; Olsen, A.; Feely, R.A.; and Cosca, C.E. (2009). Recommendations for autonomous underway pCO2 measuring systems and data-reduction routines. Deep-Sea Res., II, v. 56, pp. 512-522.</Method_References>
+        <Measured_Co2_Params>FCO2_WAT_SST</Measured_Co2_Params>
+      </CO2_Sensor>
+    </CO2_Sensors>
+    <Sea_Surface_Temperature>
+      <Manufacturer>Seabird 45, maintained on the NOAA Ship Oscar Dyson</Manufacturer>
+      <Accuracy>0.0025 Deg_C</Accuracy>
+    </Sea_Surface_Temperature>
+    <Equilibrator_Pressure>
+      <Normalized>yes</Normalized>
+    </Equilibrator_Pressure>
+    <Sea_Surface_Salinity>
+      <Manufacturer>Seabird 45, maintained on the NOAA Ship Oscar Dyson</Manufacturer>
+      <Accuracy>0.005</Accuracy>
+    </Sea_Surface_Salinity>
+  </Method_Description>
+  <Data_set_References>Pierrot, D.; Neill, C.; Sullivan, K.; Castle, R.; Wanninkhof, R.; Luger, H.; Johannessen, T.; Olsen, A.; Feely, R.A.; and Cosca, C.E. (2009). Recommendations for autonomous underway pCO2 measuring systems and data-reduction routines. Deep-Sea Res., II, v. 56, pp. 512-522.
+&lt;br&gt;
+Feely, R.A., R. Wanninkhof, H.B. Milburn, C.E. Cosca, M. Stapp, and P.P. Murphy, A new automated underway system for making high precision pCO2 measurements onboard research ships, Analytica Chim. Acta, 377, 185-191, 1998.
+&lt;br&gt;
+Wanninkhof and Thoning, Measurement of fugacity of Carbon Dioxide in surface water and air using continuous sampling methods, Marine Chemistry, 44, 189-205, 1993.</Data_set_References>
+  <Citation>Alin, S.R., C.E. Cosca, R.A. Feely, G.T. Lebon. 2016. Underway measurements of pCO2, temperature, salinity and other variables collected during the R/V Oscar Dyson cruises in the Bering Sea and coast of Alaska (03/03 - 08/13/2014). http://cdiac.ornl.gov/ftp/oceans/Oscar_Dyson/2014/. Carbon Dioxide Information Analysis Center, Oak Ridge National Laboratory, US Department of Energy, Oak Ridge, Tennessee. doi: 10.3334/CDIAC/OTG.OA_OSCAR_DYSON_2014</Citation>
+  <Preliminary_Quality_control>NA</Preliminary_Quality_control>
+  <Data_Set_Link>
+    <URL>http://cdiac.ornl.gov/ftp/oceans/Oscar_Dyson/2014/</URL>
+    <Label>R/V Oscar Dyson 2014 cruise data</Label>
+  </Data_Set_Link>
+  <status>approved</status>
+  <form_type>underway</form_type>
+  <record_id>20160105_14_26_01_69EE3BA12F35A824E1DB9F83D1CCC22E</record_id>
+</x_tags>
+
