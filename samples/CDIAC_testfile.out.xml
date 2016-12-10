@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata xmlns:xalan="http://xml.apache.org/xslt" xmlns:java="http://xml.apache.org/xalan/java" xmlns="http://www.w3.org/1999/xhtml">
+   <submissiondate/>
+   <related>
+      <name/>
+      <link/>
+   </related>
+   <datasubmitter>
+      <name>Shu Saito</name>
+      <organization>Marine Division, Global Environment and Marine Depertment, Japan Meteorological Agency</organization>
+      <deliverypoint1>1-3-4 Otemachi, Chiyoda-ku, Tokyo, 100-8122, Japan</deliverypoint1>
+      <deliverypoint2/>
+      <city/>
+      <administrativeArea/>
+      <zip/>
+      <country/>
+      <phone>+81-3-3212-8341  Ext.5133</phone>
+      <email>seadata@climar.kishou.go.jp</email>
+      <ID/>
+      <IDtype/>
+   </datasubmitter>
+</metadata>
