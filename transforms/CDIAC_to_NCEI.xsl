@@ -25,7 +25,25 @@
           <name></name>
           <link></link>
    </related>
-<!--    <xsl select="User"> -->
+	<xsl:for-each select="User">
+   	<person>
+	<name><xsl:value-of select="Name" /></name>
+	<organization><xsl:value-of select="Organization" /></organization>
+	<deliverypoint1><xsl:value-of select="Address" /></deliverypoint1>
+	<deliverypoint2></deliverypoint2>
+	<city></city>
+	<administrativeArea></administrativeArea>
+	<zip></zip>
+	<country></country>
+	<phone><xsl:value-of select="Phone" />
+	</phone>
+	<email><xsl:value-of select="Email" />
+	</email>
+	<ID></ID>
+	<IDtype></IDtype>
+	</person>
+   </xsl:for-each>
+
 	 <datasubmitter>
       <name><xsl:value-of select="User/Name" /></name>
       <organization><xsl:value-of select="User/Organization" /></organization>
@@ -40,7 +58,27 @@
       <ID></ID>
       <IDtype></IDtype>
    </datasubmitter>
-<!--   </xsl> -->
+   
+   <startdate><xsl:value-of select="Cruise_Info/Experiment/Cruise/Temporal_Coverage/Start_Date"></xsl:value-of></startdate>
+   <enddate><xsl:value-of select="Cruise_Info/Experiment/Cruise/Temporal_Coverage/End_Date"></xsl:value-of></enddate>
+
+   <westbd><xsl:value-of select="Cruise_Info/Experiment/Cruise/Geographical_Coverage/Bounds/Westernmost_Longitude"></xsl:value-of></westbd>
+   <eastbd><xsl:value-of select="Cruise_Info/Experiment/Cruise/Geographical_Coverage/Bounds/Easternmost_Longitude"></xsl:value-of></eastbd>
+   <northbd><xsl:value-of select="Cruise_Info/Experiment/Cruise/Geographical_Coverage/Bounds/Northernmost_Latitude"></xsl:value-of></northbd>
+   <southbd><xsl:value-of select="Cruise_Info/Experiment/Cruise/Geographical_Coverage/Bounds/Southernmost_Latitude"></xsl:value-of></southbd>
+
+<spatialReference><xsl:value-of select="Cruise_Info/Experiment/Cruise/Geographical_Coverage/Geographical_Region"></xsl:value-of></spatialReference>
+
+   <geographicName><xsl:value-of select="Cruise_Info/Experiment/Cruise/Geographical_Coverage/Geographical_Region"></xsl:value-of><</geographicName>
+  
+     <fundingAgency>
+      <agency><xsl:value-of select="Dataset_Info/Funding_Info"></xsl:value-of></agency>
+      <title><xsl:value-of select="Dataset_Info/Funding_Info"></xsl:value-of></title>
+      <ID></ID>
+   </fundingAgency>
+
+
+<!--   </xsl:template> -->
 <!-- 		<x_tags> -->
 <!-- 			<User> -->
 <!-- 				<xsl:for-each select="datasubmitter"> -->

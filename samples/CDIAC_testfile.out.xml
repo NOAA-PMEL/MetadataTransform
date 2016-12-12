@@ -4,6 +4,20 @@
       <name/>
       <link/>
    </related>
+   <person>
+      <name>Shu Saito</name>
+      <organization>Marine Division, Global Environment and Marine Depertment, Japan Meteorological Agency</organization>
+      <deliverypoint1>1-3-4 Otemachi, Chiyoda-ku, Tokyo, 100-8122, Japan</deliverypoint1>
+      <deliverypoint2/>
+      <city/>
+      <administrativeArea/>
+      <zip/>
+      <country/>
+      <phone>+81-3-3212-8341  Ext.5133</phone>
+      <email>seadata@climar.kishou.go.jp</email>
+      <ID/>
+      <IDtype/>
+   </person>
    <datasubmitter>
       <name>Shu Saito</name>
       <organization>Marine Division, Global Environment and Marine Depertment, Japan Meteorological Agency</organization>
@@ -18,4 +32,13 @@
       <ID/>
       <IDtype/>
    </datasubmitter>
+   <startdate>20030625</startdate>
+   <enddate>20030820</enddate>
+   <westbd>134.89</westbd>
+   <eastbd>165.48</eastbd>
+   <northbd>34.94</northbd>
+   <southbd>-5</southbd>
+   <spatialReference>Western Pacific Ocean</spatialReference>
+   <geographicName>"Observation for Monitoring Background Marine Pollution" Project of Japan Meteorological Agency</geographicName>
+   <geographicName/>
 </metadata>
