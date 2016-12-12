@@ -39,6 +39,18 @@
    <northbd>34.94</northbd>
    <southbd>-5</southbd>
    <spatialReference>Western Pacific Ocean</spatialReference>
-   <geographicName>"Observation for Monitoring Background Marine Pollution" Project of Japan Meteorological Agency</geographicName>
-   <geographicName/>
+   <geographicName>Western Pacific Ocean</geographicName>
+   <fundingAgency>
+      <agency>"Observation for Monitoring Background Marine Pollution" Project of Japan Meteorological Agency</agency>
+      <title>"Observation for Monitoring Background Marine Pollution" Project of Japan Meteorological Agency</title>
+      <ID>MISSING</ID>
+   </fundingAgency>
+   <researchProject>MISSING</researchProject>
+   <Platform>
+      <PlatformName>R/V Keifu Maru II</PlatformName>
+      <PlatformID>49UF</PlatformID>
+      <PlatformType/>
+      <PlatformOwner>Ministry of Land, Infrastructure, Transport and Tourism</PlatformOwner>
+      <PlatformCountry/>
+   </Platform>
 </metadata>

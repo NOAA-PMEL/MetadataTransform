@@ -67,16 +67,25 @@
    <northbd><xsl:value-of select="Cruise_Info/Experiment/Cruise/Geographical_Coverage/Bounds/Northernmost_Latitude"></xsl:value-of></northbd>
    <southbd><xsl:value-of select="Cruise_Info/Experiment/Cruise/Geographical_Coverage/Bounds/Southernmost_Latitude"></xsl:value-of></southbd>
 
-<spatialReference><xsl:value-of select="Cruise_Info/Experiment/Cruise/Geographical_Coverage/Geographical_Region"></xsl:value-of></spatialReference>
+   <spatialReference><xsl:value-of select="Cruise_Info/Experiment/Cruise/Geographical_Coverage/Geographical_Region"></xsl:value-of></spatialReference>
 
-   <geographicName><xsl:value-of select="Cruise_Info/Experiment/Cruise/Geographical_Coverage/Geographical_Region"></xsl:value-of><</geographicName>
+   <geographicName><xsl:value-of select="Cruise_Info/Experiment/Cruise/Geographical_Coverage/Geographical_Region"></xsl:value-of></geographicName>
   
-     <fundingAgency>
+   <fundingAgency>
       <agency><xsl:value-of select="Dataset_Info/Funding_Info"></xsl:value-of></agency>
       <title><xsl:value-of select="Dataset_Info/Funding_Info"></xsl:value-of></title>
-      <ID></ID>
+      <ID>MISSING</ID>
    </fundingAgency>
 
+	<researchProject>MISSING</researchProject>
+	
+   <Platform>
+      <PlatformName><xsl:value-of select="Cruise_Info/Vessel/Vessel_Name" /></PlatformName>
+      <PlatformID><xsl:value-of select="Cruise_Info/Vessel/Vessel_ID" /></PlatformID>
+      <PlatformType><xsl:value-of select="Cruise_Info/PlatformType" /></PlatformType>
+      <PlatformOwner><xsl:value-of select="Cruise_Info/Vessel/Vessel_Owner" /></PlatformOwner>
+      <PlatformCountry><xsl:value-of select="Cruise_Info/Vessel/Country" /></PlatformCountry>
+   </Platform>
 
 <!--   </xsl:template> -->
 <!-- 		<x_tags> -->
