@@ -86,7 +86,16 @@
       <PlatformOwner><xsl:value-of select="Cruise_Info/Vessel/Vessel_Owner" /></PlatformOwner>
       <PlatformCountry><xsl:value-of select="Cruise_Info/Vessel/Country" /></PlatformCountry>
    </Platform>
-
+   
+   <expocode><xsl:value-of select="Cruise_Info/Experiment/Cruise/expocode"/></expocode>
+   <cruiseID><xsl:value-of select="Cruise_Info/Experiment/Cruise/Cruise_ID"/></cruiseID>
+   <section>MISSING</section>
+   
+   <citation><xsl:value-of select="Citation"/></citation>
+   <reference><xsl:value-of select="Data_set_References"/></reference>
+   <suppleInfo>MISSING</suppleInfo>
+   
+   
 <!--   </xsl:template> -->
 <!-- 		<x_tags> -->
 <!-- 			<User> -->
