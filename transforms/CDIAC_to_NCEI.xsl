@@ -71,6 +71,8 @@
 
    <geographicName><xsl:value-of select="Cruise_Info/Experiment/Cruise/Geographical_Coverage/Geographical_Region"></xsl:value-of></geographicName>
   
+   <locationOrganism>MISSING</locationOrganism>
+  
    <fundingAgency>
       <agency><xsl:value-of select="Dataset_Info/Funding_Info"></xsl:value-of></agency>
       <title><xsl:value-of select="Dataset_Info/Funding_Info"></xsl:value-of></title>
@@ -95,6 +97,40 @@
    <reference><xsl:value-of select="Data_set_References"/></reference>
    <suppleInfo>MISSING</suppleInfo>
    
+   <link_landing>MISSING</link_landing>
+   <link_download>MISSING</link_download>
+   
+   <xsl:for-each select="Variables_Info/Variable">
+   	<variable>
+      <fullname><xsl:value-of select="Variable_Name"/></fullname>
+      <abbrev>MISSING</abbrev>
+      <observationType><xsl:value-of select="Description_of_Variable"/></observationType>
+      <insitu>MISSING</insitu>
+      <manipulationMethod>MISSING</manipulationMethod>
+      <measured>MISSING</measured>
+      <calcMethod>MISSING</calcMethod>
+      <samplingInstrument>MISSING</samplingInstrument>
+      <analyzingInstrument>MISSING</analyzingInstrument>
+      <phscale>MISSING</phscale>
+      <temperatureMeasure>MISSING </temperatureMeasure>
+       <detailedInfo>MISSING</detailedInfo>
+      <replicate>MISSING</replicate>
+      <standard>
+         <description>MISSING</description>
+         <frequency>MISSING</frequency>
+         <standardphvalues>MISSING</standardphvalues>
+         <temperatureStandardization>MISSING</temperatureStandardization>
+      </standard>
+      <temperatureCorrectionMethod>MISSING</temperatureCorrectionMethod>
+      <phReportTemperature>MISSING</phReportTemperature>
+      <uncertainty>MISSING</uncertainty>
+      <flag>MISSING</flag>
+      <methodReference>MISSING</methodReference>
+      <researcherName>MISSING</researcherName>
+      <researcherInstitution>MISSING</researcherInstitution>
+      <internal>MISSING</internal>
+   </variable>
+   </xsl:for-each>
    
 <!--   </xsl:template> -->
 <!-- 		<x_tags> -->
