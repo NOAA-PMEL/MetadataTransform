@@ -102,9 +102,9 @@
    
    <xsl:for-each select="Variables_Info/Variable">
    	<variable>
-      <fullname><xsl:value-of select="Variable_Name"/></fullname>
-      <abbrev>MISSING</abbrev>
-      <observationType><xsl:value-of select="Description_of_Variable"/></observationType>
+      <fullname>MISSING</fullname>
+      <abbrev><xsl:value-of select="Variable_Name"/></abbrev>
+      <observationType>MISSING</observationType>
       <insitu>MISSING</insitu>
       <manipulationMethod>MISSING</manipulationMethod>
       <measured>MISSING</measured>
@@ -113,7 +113,7 @@
       <analyzingInstrument>MISSING</analyzingInstrument>
       <phscale>MISSING</phscale>
       <temperatureMeasure>MISSING </temperatureMeasure>
-       <detailedInfo>MISSING</detailedInfo>
+       <detailedInfo><xsl:value-of select="Description_of_Variable"/></detailedInfo>
       <replicate>MISSING</replicate>
       <standard>
          <description>MISSING</description>
