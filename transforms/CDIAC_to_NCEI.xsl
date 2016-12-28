@@ -100,10 +100,14 @@
    <link_landing>MISSING</link_landing>
    <link_download>MISSING</link_download>
    
+    
    <xsl:for-each select="Variables_Info/Variable">
-   	<variable>
+
+   <xsl:variable name="var"><xsl:value-of select="Variable_Name"/></xsl:variable>
+   	  ****************************The value of variable <xsl:value-of select="$var"/> ******************************************
+      <variable>
       <fullname>MISSING</fullname>
-      <abbrev><xsl:value-of select="Variable_Name"/></abbrev>
+      <abbrev><xsl:value-of select="$var"/></abbrev>
       <observationType>MISSING</observationType>
       <insitu>MISSING</insitu>
       <manipulationMethod>MISSING</manipulationMethod>
