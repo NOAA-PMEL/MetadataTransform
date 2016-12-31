@@ -104,36 +104,168 @@
    <xsl:for-each select="Variables_Info/Variable">
 
    <xsl:variable name="var"><xsl:value-of select="Variable_Name"/></xsl:variable>
-   	  ****************************The value of variable <xsl:value-of select="$var"/> ******************************************
-      <variable>
+   
+<!--    <xsl:if test="contains($var, 'CO2')"> -->
+<!--    	"*********************** WE Found CO2 **********************************************" -->
+<!--    </xsl:if> -->
+   <xsl:choose>
+    <xsl:when test="contains($var, 'DIC') or contains($var, 'Dissolved Inorganic Carbon')">
+   	<variable>
       <fullname>MISSING</fullname>
       <abbrev><xsl:value-of select="$var"/></abbrev>
       <observationType>MISSING</observationType>
       <insitu>MISSING</insitu>
       <manipulationMethod>MISSING</manipulationMethod>
+      <unit>MISSING</unit>
       <measured>MISSING</measured>
       <calcMethod>MISSING</calcMethod>
       <samplingInstrument>MISSING</samplingInstrument>
       <analyzingInstrument>MISSING</analyzingInstrument>
-      <phscale>MISSING</phscale>
-      <temperatureMeasure>MISSING </temperatureMeasure>
-       <detailedInfo><xsl:value-of select="Description_of_Variable"/></detailedInfo>
+      <detailedInfo><xsl:value-of select="Description_of_Variable"/></detailedInfo>
       <replicate>MISSING</replicate>
       <standard>
          <description>MISSING</description>
          <frequency>MISSING</frequency>
-         <standardphvalues>MISSING</standardphvalues>
-         <temperatureStandardization>MISSING</temperatureStandardization>
+         <crm>
+            <manufacturer>MISSING</manufacturer>
+            <batch>MISSING</batch>
+         </crm>
       </standard>
-      <temperatureCorrectionMethod>MISSING</temperatureCorrectionMethod>
-      <phReportTemperature>MISSING</phReportTemperature>
+      <poison>
+         <poisonName>MISSING</poisonName>
+         <volume>MISSING</volume>
+         <correction>MISSING</correction>
+      </poison>
       <uncertainty>MISSING</uncertainty>
       <flag>MISSING</flag>
       <methodReference>MISSING</methodReference>
       <researcherName>MISSING</researcherName>
       <researcherInstitution>MISSING</researcherInstitution>
-      <internal>MISSING</internal>
+      <internal>1</internal>
    </variable>
+   </xsl:when>
+ 
+   <xsl:when test="contains($var, 'TA') or contains($var, 'Total alkalinity')">
+   <variable>
+      <fullname>MISSING</fullname>
+    <abbrev><xsl:value-of select="$var"/></abbrev>
+      <observationType>MISSING</observationType>
+      <insitu>MISSING</insitu>
+      <manipulationMethod>MISSING</manipulationMethod>
+      <unit>MISSING</unit>
+      <measured>MISSING</measured>
+      <calcMethod>MISSING</calcMethod>
+      <samplingInstrument>MISSING</samplingInstrument>
+      <analyzingInstrument>MISSING</analyzingInstrument>
+      <titrationType>MISSING</titrationType>
+      <cellType>MISSING</cellType>
+      <curveFitting>MISSING</curveFitting>
+      <detailedInfo><xsl:value-of select="Description_of_Variable"/></detailedInfo>
+      <replicate>MISSING</replicate>
+      <standard>
+         <description>MISSING</description>
+         <frequency>MISSING</frequency>
+         <crm>
+            <manufacturer>MISSING</manufacturer>
+            <batch>MISSING</batch>
+         </crm>
+      </standard>
+      <poison>
+         <poisonName>MISSING</poisonName>
+         <volume>MISSING</volume>
+         <correction>MISSING</correction>
+      </poison>
+      <blank></blank>
+      <uncertainty>MISSING</uncertainty>
+      <flag>MISSING</flag>
+      <methodReference>MISSING</methodReference>
+      <researcherName>MISSING</researcherName>
+      <researcherInstitution>MISSING</researcherInstitution>
+      <internal>2</internal>
+   </variable>
+   </xsl:when>
+   
+   <xsl:when test="contains($var, 'CO2') or contains($var, 'x CO2')">
+      <variable>
+      <fullname></fullname>
+     <abbrev><xsl:value-of select="$var"/></abbrev>
+      <observationType></observationType>
+      <insitu></insitu>
+      <manipulationMethod></manipulationMethod>
+      <unit></unit>
+      <measured></measured>
+      <calcMethod></calcMethod>
+      <samplingInstrument></samplingInstrument>
+      <locationSeawaterIntake></locationSeawaterIntake>
+      <DepthSeawaterIntake></DepthSeawaterIntake>
+      <analyzingInstrument></analyzingInstrument>
+      <detailedInfo><xsl:value-of select="Description_of_Variable"/></detailedInfo>
+      <equilibrator>
+         <type></type>
+         <volume></volume>
+         <vented></vented>
+         <waterFlowRate></waterFlowRate>
+         <gasFlowRate></gasFlowRate>
+         <temperatureEquilibratorMethod></temperatureEquilibratorMethod>
+         <pressureEquilibratorMethod></pressureEquilibratorMethod>
+         <dryMethod></dryMethod>
+      </equilibrator>
+      <gasDetector>
+         <manufacturer></manufacturer>
+         <model></model>
+         <resolution></resolution>
+         <uncertainty></uncertainty>
+      </gasDetector>
+      <standardization>
+         <description></description>
+         <frequency></frequency>
+         <standardgas>
+            <manufacturer></manufacturer>
+            <concentration></concentration>
+            <uncertainty></uncertainty>
+         </standardgas>
+      </standardization>
+      <waterVaporCorrection></waterVaporCorrection>
+      <temperatureCorrection></temperatureCorrection>
+      <co2ReportTemperature></co2ReportTemperature>
+      <uncertainty></uncertainty>
+      <flag></flag>
+      <methodReference></methodReference>
+      <researcherName></researcherName>
+      <researcherInstitution></researcherInstitution>
+      <internal>4</internal>
+   </variable>
+   
+   </xsl:when>
+   
+   
+   <xsl:otherwise>
+   <variable>
+      <abbrev><xsl:value-of select="$var"/></abbrev>
+      <fullname>MISSING</fullname>
+      <observationType>MISSING</observationType>
+      <insitu>MISSING</insitu>
+      <unit></unit>
+      <measured>MISSING</measured>
+      <calcMethod>MISSING</calcMethod>
+      <samplingInstrument>MISSING</samplingInstrument>
+      <analyzingInstrument>MISSING</analyzingInstrument>
+      <duration></duration>
+     <detailedInfo><xsl:value-of select="Description_of_Variable"/></detailedInfo>
+      <replicate>MISSING</replicate>
+      <uncertainty>MISSING</uncertainty>
+      <flag>MISSING</flag>
+      <methodReference>MISSING</methodReference>
+      <biologicalSubject>MISSING</biologicalSubject>
+      <speciesID>MISSING</speciesID>
+      <lifeStage>MISSING</lifeStage>
+      <researcherName>MISSING</researcherName>
+      <researcherInstitution>MISSING</researcherInstitution>
+      <internal>0</internal> 
+   </variable>
+   </xsl:otherwise>
+   </xsl:choose>
+<!--    	  ****************************The value of variable <xsl:value-of select="$var"/> ****************************************** -->
    </xsl:for-each>
    
 <!--   </xsl:template> -->

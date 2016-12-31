@@ -62,514 +62,447 @@
    <suppleInfo>MISSING</suppleInfo>
    <link_landing>MISSING</link_landing>
    <link_download>MISSING</link_download>
-   	  ****************************The value of variable Cruise ******************************************
-      <variable>
-      <fullname>MISSING</fullname>
+   <variable>
       <abbrev>Cruise</abbrev>
+      <fullname>MISSING</fullname>
       <observationType>MISSING</observationType>
       <insitu>MISSING</insitu>
-      <manipulationMethod>MISSING</manipulationMethod>
+      <unit/>
       <measured>MISSING</measured>
       <calcMethod>MISSING</calcMethod>
       <samplingInstrument>MISSING</samplingInstrument>
       <analyzingInstrument>MISSING</analyzingInstrument>
-      <phscale>MISSING</phscale>
-      <temperatureMeasure>MISSING </temperatureMeasure>
+      <duration/>
       <detailedInfo/>
       <replicate>MISSING</replicate>
-      <standard>
-         <description>MISSING</description>
-         <frequency>MISSING</frequency>
-         <standardphvalues>MISSING</standardphvalues>
-         <temperatureStandardization>MISSING</temperatureStandardization>
-      </standard>
-      <temperatureCorrectionMethod>MISSING</temperatureCorrectionMethod>
-      <phReportTemperature>MISSING</phReportTemperature>
       <uncertainty>MISSING</uncertainty>
       <flag>MISSING</flag>
       <methodReference>MISSING</methodReference>
+      <biologicalSubject>MISSING</biologicalSubject>
+      <speciesID>MISSING</speciesID>
+      <lifeStage>MISSING</lifeStage>
       <researcherName>MISSING</researcherName>
       <researcherInstitution>MISSING</researcherInstitution>
-      <internal>MISSING</internal>
+      <internal>0</internal>
    </variable>
-   	  ****************************The value of variable Date ******************************************
-      <variable>
-      <fullname>MISSING</fullname>
+   <variable>
       <abbrev>Date</abbrev>
+      <fullname>MISSING</fullname>
       <observationType>MISSING</observationType>
       <insitu>MISSING</insitu>
-      <manipulationMethod>MISSING</manipulationMethod>
+      <unit/>
       <measured>MISSING</measured>
       <calcMethod>MISSING</calcMethod>
       <samplingInstrument>MISSING</samplingInstrument>
       <analyzingInstrument>MISSING</analyzingInstrument>
-      <phscale>MISSING</phscale>
-      <temperatureMeasure>MISSING </temperatureMeasure>
+      <duration/>
       <detailedInfo>Observation date (yyyy/mm/dd)</detailedInfo>
       <replicate>MISSING</replicate>
-      <standard>
-         <description>MISSING</description>
-         <frequency>MISSING</frequency>
-         <standardphvalues>MISSING</standardphvalues>
-         <temperatureStandardization>MISSING</temperatureStandardization>
-      </standard>
-      <temperatureCorrectionMethod>MISSING</temperatureCorrectionMethod>
-      <phReportTemperature>MISSING</phReportTemperature>
       <uncertainty>MISSING</uncertainty>
       <flag>MISSING</flag>
       <methodReference>MISSING</methodReference>
+      <biologicalSubject>MISSING</biologicalSubject>
+      <speciesID>MISSING</speciesID>
+      <lifeStage>MISSING</lifeStage>
       <researcherName>MISSING</researcherName>
       <researcherInstitution>MISSING</researcherInstitution>
-      <internal>MISSING</internal>
+      <internal>0</internal>
    </variable>
-   	  ****************************The value of variable Time ******************************************
-      <variable>
-      <fullname>MISSING</fullname>
+   <variable>
       <abbrev>Time</abbrev>
+      <fullname>MISSING</fullname>
       <observationType>MISSING</observationType>
       <insitu>MISSING</insitu>
-      <manipulationMethod>MISSING</manipulationMethod>
+      <unit/>
       <measured>MISSING</measured>
       <calcMethod>MISSING</calcMethod>
       <samplingInstrument>MISSING</samplingInstrument>
       <analyzingInstrument>MISSING</analyzingInstrument>
-      <phscale>MISSING</phscale>
-      <temperatureMeasure>MISSING </temperatureMeasure>
+      <duration/>
       <detailedInfo>Observation time (hh:mm)</detailedInfo>
       <replicate>MISSING</replicate>
-      <standard>
-         <description>MISSING</description>
-         <frequency>MISSING</frequency>
-         <standardphvalues>MISSING</standardphvalues>
-         <temperatureStandardization>MISSING</temperatureStandardization>
-      </standard>
-      <temperatureCorrectionMethod>MISSING</temperatureCorrectionMethod>
-      <phReportTemperature>MISSING</phReportTemperature>
       <uncertainty>MISSING</uncertainty>
       <flag>MISSING</flag>
       <methodReference>MISSING</methodReference>
+      <biologicalSubject>MISSING</biologicalSubject>
+      <speciesID>MISSING</speciesID>
+      <lifeStage>MISSING</lifeStage>
       <researcherName>MISSING</researcherName>
       <researcherInstitution>MISSING</researcherInstitution>
-      <internal>MISSING</internal>
+      <internal>0</internal>
    </variable>
-   	  ****************************The value of variable Lat ******************************************
-      <variable>
-      <fullname>MISSING</fullname>
+   <variable>
       <abbrev>Lat</abbrev>
+      <fullname>MISSING</fullname>
       <observationType>MISSING</observationType>
       <insitu>MISSING</insitu>
-      <manipulationMethod>MISSING</manipulationMethod>
+      <unit/>
       <measured>MISSING</measured>
       <calcMethod>MISSING</calcMethod>
       <samplingInstrument>MISSING</samplingInstrument>
       <analyzingInstrument>MISSING</analyzingInstrument>
-      <phscale>MISSING</phscale>
-      <temperatureMeasure>MISSING </temperatureMeasure>
+      <duration/>
       <detailedInfo>Latitude (degrees north)</detailedInfo>
       <replicate>MISSING</replicate>
-      <standard>
-         <description>MISSING</description>
-         <frequency>MISSING</frequency>
-         <standardphvalues>MISSING</standardphvalues>
-         <temperatureStandardization>MISSING</temperatureStandardization>
-      </standard>
-      <temperatureCorrectionMethod>MISSING</temperatureCorrectionMethod>
-      <phReportTemperature>MISSING</phReportTemperature>
       <uncertainty>MISSING</uncertainty>
       <flag>MISSING</flag>
       <methodReference>MISSING</methodReference>
+      <biologicalSubject>MISSING</biologicalSubject>
+      <speciesID>MISSING</speciesID>
+      <lifeStage>MISSING</lifeStage>
       <researcherName>MISSING</researcherName>
       <researcherInstitution>MISSING</researcherInstitution>
-      <internal>MISSING</internal>
+      <internal>0</internal>
    </variable>
-   	  ****************************The value of variable Lon ******************************************
-      <variable>
-      <fullname>MISSING</fullname>
+   <variable>
       <abbrev>Lon</abbrev>
+      <fullname>MISSING</fullname>
       <observationType>MISSING</observationType>
       <insitu>MISSING</insitu>
-      <manipulationMethod>MISSING</manipulationMethod>
+      <unit/>
       <measured>MISSING</measured>
       <calcMethod>MISSING</calcMethod>
       <samplingInstrument>MISSING</samplingInstrument>
       <analyzingInstrument>MISSING</analyzingInstrument>
-      <phscale>MISSING</phscale>
-      <temperatureMeasure>MISSING </temperatureMeasure>
+      <duration/>
       <detailedInfo>Longitude (degrees east)</detailedInfo>
       <replicate>MISSING</replicate>
-      <standard>
-         <description>MISSING</description>
-         <frequency>MISSING</frequency>
-         <standardphvalues>MISSING</standardphvalues>
-         <temperatureStandardization>MISSING</temperatureStandardization>
-      </standard>
-      <temperatureCorrectionMethod>MISSING</temperatureCorrectionMethod>
-      <phReportTemperature>MISSING</phReportTemperature>
       <uncertainty>MISSING</uncertainty>
       <flag>MISSING</flag>
       <methodReference>MISSING</methodReference>
+      <biologicalSubject>MISSING</biologicalSubject>
+      <speciesID>MISSING</speciesID>
+      <lifeStage>MISSING</lifeStage>
       <researcherName>MISSING</researcherName>
       <researcherInstitution>MISSING</researcherInstitution>
-      <internal>MISSING</internal>
+      <internal>0</internal>
    </variable>
-   	  ****************************The value of variable xCO2a ******************************************
-      <variable>
-      <fullname>MISSING</fullname>
+   <variable>
+      <fullname/>
       <abbrev>xCO2a</abbrev>
-      <observationType>MISSING</observationType>
-      <insitu>MISSING</insitu>
-      <manipulationMethod>MISSING</manipulationMethod>
-      <measured>MISSING</measured>
-      <calcMethod>MISSING</calcMethod>
-      <samplingInstrument>MISSING</samplingInstrument>
-      <analyzingInstrument>MISSING</analyzingInstrument>
-      <phscale>MISSING</phscale>
-      <temperatureMeasure>MISSING </temperatureMeasure>
+      <observationType/>
+      <insitu/>
+      <manipulationMethod/>
+      <unit/>
+      <measured/>
+      <calcMethod/>
+      <samplingInstrument/>
+      <locationSeawaterIntake/>
+      <DepthSeawaterIntake/>
+      <analyzingInstrument/>
       <detailedInfo>Mole fraction of CO2 in ambient atmosphere (micro mol/mol in dry air)</detailedInfo>
-      <replicate>MISSING</replicate>
-      <standard>
-         <description>MISSING</description>
-         <frequency>MISSING</frequency>
-         <standardphvalues>MISSING</standardphvalues>
-         <temperatureStandardization>MISSING</temperatureStandardization>
-      </standard>
-      <temperatureCorrectionMethod>MISSING</temperatureCorrectionMethod>
-      <phReportTemperature>MISSING</phReportTemperature>
-      <uncertainty>MISSING</uncertainty>
-      <flag>MISSING</flag>
-      <methodReference>MISSING</methodReference>
-      <researcherName>MISSING</researcherName>
-      <researcherInstitution>MISSING</researcherInstitution>
-      <internal>MISSING</internal>
+      <equilibrator>
+         <type/>
+         <volume/>
+         <vented/>
+         <waterFlowRate/>
+         <gasFlowRate/>
+         <temperatureEquilibratorMethod/>
+         <pressureEquilibratorMethod/>
+         <dryMethod/>
+      </equilibrator>
+      <gasDetector>
+         <manufacturer/>
+         <model/>
+         <resolution/>
+         <uncertainty/>
+      </gasDetector>
+      <standardization>
+         <description/>
+         <frequency/>
+         <standardgas>
+            <manufacturer/>
+            <concentration/>
+            <uncertainty/>
+         </standardgas>
+      </standardization>
+      <waterVaporCorrection/>
+      <temperatureCorrection/>
+      <co2ReportTemperature/>
+      <uncertainty/>
+      <flag/>
+      <methodReference/>
+      <researcherName/>
+      <researcherInstitution/>
+      <internal>4</internal>
    </variable>
-   	  ****************************The value of variable F ******************************************
-      <variable>
-      <fullname>MISSING</fullname>
+   <variable>
       <abbrev>F</abbrev>
+      <fullname>MISSING</fullname>
       <observationType>MISSING</observationType>
       <insitu>MISSING</insitu>
-      <manipulationMethod>MISSING</manipulationMethod>
+      <unit/>
       <measured>MISSING</measured>
       <calcMethod>MISSING</calcMethod>
       <samplingInstrument>MISSING</samplingInstrument>
       <analyzingInstrument>MISSING</analyzingInstrument>
-      <phscale>MISSING</phscale>
-      <temperatureMeasure>MISSING </temperatureMeasure>
+      <duration/>
       <detailedInfo>2: Acceptable, 4: Not measured with missing value "-999" on the left.</detailedInfo>
       <replicate>MISSING</replicate>
-      <standard>
-         <description>MISSING</description>
-         <frequency>MISSING</frequency>
-         <standardphvalues>MISSING</standardphvalues>
-         <temperatureStandardization>MISSING</temperatureStandardization>
-      </standard>
-      <temperatureCorrectionMethod>MISSING</temperatureCorrectionMethod>
-      <phReportTemperature>MISSING</phReportTemperature>
       <uncertainty>MISSING</uncertainty>
       <flag>MISSING</flag>
       <methodReference>MISSING</methodReference>
+      <biologicalSubject>MISSING</biologicalSubject>
+      <speciesID>MISSING</speciesID>
+      <lifeStage>MISSING</lifeStage>
       <researcherName>MISSING</researcherName>
       <researcherInstitution>MISSING</researcherInstitution>
-      <internal>MISSING</internal>
+      <internal>0</internal>
    </variable>
-   	  ****************************The value of variable xCO2eq ******************************************
-      <variable>
-      <fullname>MISSING</fullname>
+   <variable>
+      <fullname/>
       <abbrev>xCO2eq</abbrev>
-      <observationType>MISSING</observationType>
-      <insitu>MISSING</insitu>
-      <manipulationMethod>MISSING</manipulationMethod>
-      <measured>MISSING</measured>
-      <calcMethod>MISSING</calcMethod>
-      <samplingInstrument>MISSING</samplingInstrument>
-      <analyzingInstrument>MISSING</analyzingInstrument>
-      <phscale>MISSING</phscale>
-      <temperatureMeasure>MISSING </temperatureMeasure>
+      <observationType/>
+      <insitu/>
+      <manipulationMethod/>
+      <unit/>
+      <measured/>
+      <calcMethod/>
+      <samplingInstrument/>
+      <locationSeawaterIntake/>
+      <DepthSeawaterIntake/>
+      <analyzingInstrument/>
       <detailedInfo>Mole fraction of CO2 in air from equilibrator (micro mol/mol in dry air)</detailedInfo>
-      <replicate>MISSING</replicate>
-      <standard>
-         <description>MISSING</description>
-         <frequency>MISSING</frequency>
-         <standardphvalues>MISSING</standardphvalues>
-         <temperatureStandardization>MISSING</temperatureStandardization>
-      </standard>
-      <temperatureCorrectionMethod>MISSING</temperatureCorrectionMethod>
-      <phReportTemperature>MISSING</phReportTemperature>
-      <uncertainty>MISSING</uncertainty>
-      <flag>MISSING</flag>
-      <methodReference>MISSING</methodReference>
-      <researcherName>MISSING</researcherName>
-      <researcherInstitution>MISSING</researcherInstitution>
-      <internal>MISSING</internal>
+      <equilibrator>
+         <type/>
+         <volume/>
+         <vented/>
+         <waterFlowRate/>
+         <gasFlowRate/>
+         <temperatureEquilibratorMethod/>
+         <pressureEquilibratorMethod/>
+         <dryMethod/>
+      </equilibrator>
+      <gasDetector>
+         <manufacturer/>
+         <model/>
+         <resolution/>
+         <uncertainty/>
+      </gasDetector>
+      <standardization>
+         <description/>
+         <frequency/>
+         <standardgas>
+            <manufacturer/>
+            <concentration/>
+            <uncertainty/>
+         </standardgas>
+      </standardization>
+      <waterVaporCorrection/>
+      <temperatureCorrection/>
+      <co2ReportTemperature/>
+      <uncertainty/>
+      <flag/>
+      <methodReference/>
+      <researcherName/>
+      <researcherInstitution/>
+      <internal>4</internal>
    </variable>
-   	  ****************************The value of variable F ******************************************
-      <variable>
-      <fullname>MISSING</fullname>
+   <variable>
       <abbrev>F</abbrev>
+      <fullname>MISSING</fullname>
       <observationType>MISSING</observationType>
       <insitu>MISSING</insitu>
-      <manipulationMethod>MISSING</manipulationMethod>
+      <unit/>
       <measured>MISSING</measured>
       <calcMethod>MISSING</calcMethod>
       <samplingInstrument>MISSING</samplingInstrument>
       <analyzingInstrument>MISSING</analyzingInstrument>
-      <phscale>MISSING</phscale>
-      <temperatureMeasure>MISSING </temperatureMeasure>
+      <duration/>
       <detailedInfo>2: Acceptable, 4: Not measured with missing value "-999" on the left.</detailedInfo>
       <replicate>MISSING</replicate>
-      <standard>
-         <description>MISSING</description>
-         <frequency>MISSING</frequency>
-         <standardphvalues>MISSING</standardphvalues>
-         <temperatureStandardization>MISSING</temperatureStandardization>
-      </standard>
-      <temperatureCorrectionMethod>MISSING</temperatureCorrectionMethod>
-      <phReportTemperature>MISSING</phReportTemperature>
       <uncertainty>MISSING</uncertainty>
       <flag>MISSING</flag>
       <methodReference>MISSING</methodReference>
+      <biologicalSubject>MISSING</biologicalSubject>
+      <speciesID>MISSING</speciesID>
+      <lifeStage>MISSING</lifeStage>
       <researcherName>MISSING</researcherName>
       <researcherInstitution>MISSING</researcherInstitution>
-      <internal>MISSING</internal>
+      <internal>0</internal>
    </variable>
-   	  ****************************The value of variable AtmPrs ******************************************
-      <variable>
-      <fullname>MISSING</fullname>
+   <variable>
       <abbrev>AtmPrs</abbrev>
+      <fullname>MISSING</fullname>
       <observationType>MISSING</observationType>
       <insitu>MISSING</insitu>
-      <manipulationMethod>MISSING</manipulationMethod>
+      <unit/>
       <measured>MISSING</measured>
       <calcMethod>MISSING</calcMethod>
       <samplingInstrument>MISSING</samplingInstrument>
       <analyzingInstrument>MISSING</analyzingInstrument>
-      <phscale>MISSING</phscale>
-      <temperatureMeasure>MISSING </temperatureMeasure>
+      <duration/>
       <detailedInfo>Atmospheric pressure at sea-surface pressure (hPa)</detailedInfo>
       <replicate>MISSING</replicate>
-      <standard>
-         <description>MISSING</description>
-         <frequency>MISSING</frequency>
-         <standardphvalues>MISSING</standardphvalues>
-         <temperatureStandardization>MISSING</temperatureStandardization>
-      </standard>
-      <temperatureCorrectionMethod>MISSING</temperatureCorrectionMethod>
-      <phReportTemperature>MISSING</phReportTemperature>
       <uncertainty>MISSING</uncertainty>
       <flag>MISSING</flag>
       <methodReference>MISSING</methodReference>
+      <biologicalSubject>MISSING</biologicalSubject>
+      <speciesID>MISSING</speciesID>
+      <lifeStage>MISSING</lifeStage>
       <researcherName>MISSING</researcherName>
       <researcherInstitution>MISSING</researcherInstitution>
-      <internal>MISSING</internal>
+      <internal>0</internal>
    </variable>
-   	  ****************************The value of variable F ******************************************
-      <variable>
-      <fullname>MISSING</fullname>
+   <variable>
       <abbrev>F</abbrev>
+      <fullname>MISSING</fullname>
       <observationType>MISSING</observationType>
       <insitu>MISSING</insitu>
-      <manipulationMethod>MISSING</manipulationMethod>
+      <unit/>
       <measured>MISSING</measured>
       <calcMethod>MISSING</calcMethod>
       <samplingInstrument>MISSING</samplingInstrument>
       <analyzingInstrument>MISSING</analyzingInstrument>
-      <phscale>MISSING</phscale>
-      <temperatureMeasure>MISSING </temperatureMeasure>
+      <duration/>
       <detailedInfo>2: Acceptable, 4: Not measured with missing value "-999" on the left.</detailedInfo>
       <replicate>MISSING</replicate>
-      <standard>
-         <description>MISSING</description>
-         <frequency>MISSING</frequency>
-         <standardphvalues>MISSING</standardphvalues>
-         <temperatureStandardization>MISSING</temperatureStandardization>
-      </standard>
-      <temperatureCorrectionMethod>MISSING</temperatureCorrectionMethod>
-      <phReportTemperature>MISSING</phReportTemperature>
       <uncertainty>MISSING</uncertainty>
       <flag>MISSING</flag>
       <methodReference>MISSING</methodReference>
+      <biologicalSubject>MISSING</biologicalSubject>
+      <speciesID>MISSING</speciesID>
+      <lifeStage>MISSING</lifeStage>
       <researcherName>MISSING</researcherName>
       <researcherInstitution>MISSING</researcherInstitution>
-      <internal>MISSING</internal>
+      <internal>0</internal>
    </variable>
-   	  ****************************The value of variable TmpEq ******************************************
-      <variable>
-      <fullname>MISSING</fullname>
+   <variable>
       <abbrev>TmpEq</abbrev>
+      <fullname>MISSING</fullname>
       <observationType>MISSING</observationType>
       <insitu>MISSING</insitu>
-      <manipulationMethod>MISSING</manipulationMethod>
+      <unit/>
       <measured>MISSING</measured>
       <calcMethod>MISSING</calcMethod>
       <samplingInstrument>MISSING</samplingInstrument>
       <analyzingInstrument>MISSING</analyzingInstrument>
-      <phscale>MISSING</phscale>
-      <temperatureMeasure>MISSING </temperatureMeasure>
+      <duration/>
       <detailedInfo>Temperature at equilibration (DEG_C)</detailedInfo>
       <replicate>MISSING</replicate>
-      <standard>
-         <description>MISSING</description>
-         <frequency>MISSING</frequency>
-         <standardphvalues>MISSING</standardphvalues>
-         <temperatureStandardization>MISSING</temperatureStandardization>
-      </standard>
-      <temperatureCorrectionMethod>MISSING</temperatureCorrectionMethod>
-      <phReportTemperature>MISSING</phReportTemperature>
       <uncertainty>MISSING</uncertainty>
       <flag>MISSING</flag>
       <methodReference>MISSING</methodReference>
+      <biologicalSubject>MISSING</biologicalSubject>
+      <speciesID>MISSING</speciesID>
+      <lifeStage>MISSING</lifeStage>
       <researcherName>MISSING</researcherName>
       <researcherInstitution>MISSING</researcherInstitution>
-      <internal>MISSING</internal>
+      <internal>0</internal>
    </variable>
-   	  ****************************The value of variable F ******************************************
-      <variable>
-      <fullname>MISSING</fullname>
+   <variable>
       <abbrev>F</abbrev>
+      <fullname>MISSING</fullname>
       <observationType>MISSING</observationType>
       <insitu>MISSING</insitu>
-      <manipulationMethod>MISSING</manipulationMethod>
+      <unit/>
       <measured>MISSING</measured>
       <calcMethod>MISSING</calcMethod>
       <samplingInstrument>MISSING</samplingInstrument>
       <analyzingInstrument>MISSING</analyzingInstrument>
-      <phscale>MISSING</phscale>
-      <temperatureMeasure>MISSING </temperatureMeasure>
+      <duration/>
       <detailedInfo>2: Acceptable, 4: Not measured with missing value "-999" on the left.</detailedInfo>
       <replicate>MISSING</replicate>
-      <standard>
-         <description>MISSING</description>
-         <frequency>MISSING</frequency>
-         <standardphvalues>MISSING</standardphvalues>
-         <temperatureStandardization>MISSING</temperatureStandardization>
-      </standard>
-      <temperatureCorrectionMethod>MISSING</temperatureCorrectionMethod>
-      <phReportTemperature>MISSING</phReportTemperature>
       <uncertainty>MISSING</uncertainty>
       <flag>MISSING</flag>
       <methodReference>MISSING</methodReference>
+      <biologicalSubject>MISSING</biologicalSubject>
+      <speciesID>MISSING</speciesID>
+      <lifeStage>MISSING</lifeStage>
       <researcherName>MISSING</researcherName>
       <researcherInstitution>MISSING</researcherInstitution>
-      <internal>MISSING</internal>
+      <internal>0</internal>
    </variable>
-   	  ****************************The value of variable SST ******************************************
-      <variable>
-      <fullname>MISSING</fullname>
+   <variable>
       <abbrev>SST</abbrev>
+      <fullname>MISSING</fullname>
       <observationType>MISSING</observationType>
       <insitu>MISSING</insitu>
-      <manipulationMethod>MISSING</manipulationMethod>
+      <unit/>
       <measured>MISSING</measured>
       <calcMethod>MISSING</calcMethod>
       <samplingInstrument>MISSING</samplingInstrument>
       <analyzingInstrument>MISSING</analyzingInstrument>
-      <phscale>MISSING</phscale>
-      <temperatureMeasure>MISSING </temperatureMeasure>
+      <duration/>
       <detailedInfo>In situ sea surface temperature (DEG_C)</detailedInfo>
       <replicate>MISSING</replicate>
-      <standard>
-         <description>MISSING</description>
-         <frequency>MISSING</frequency>
-         <standardphvalues>MISSING</standardphvalues>
-         <temperatureStandardization>MISSING</temperatureStandardization>
-      </standard>
-      <temperatureCorrectionMethod>MISSING</temperatureCorrectionMethod>
-      <phReportTemperature>MISSING</phReportTemperature>
       <uncertainty>MISSING</uncertainty>
       <flag>MISSING</flag>
       <methodReference>MISSING</methodReference>
+      <biologicalSubject>MISSING</biologicalSubject>
+      <speciesID>MISSING</speciesID>
+      <lifeStage>MISSING</lifeStage>
       <researcherName>MISSING</researcherName>
       <researcherInstitution>MISSING</researcherInstitution>
-      <internal>MISSING</internal>
+      <internal>0</internal>
    </variable>
-   	  ****************************The value of variable F ******************************************
-      <variable>
-      <fullname>MISSING</fullname>
+   <variable>
       <abbrev>F</abbrev>
+      <fullname>MISSING</fullname>
       <observationType>MISSING</observationType>
       <insitu>MISSING</insitu>
-      <manipulationMethod>MISSING</manipulationMethod>
+      <unit/>
       <measured>MISSING</measured>
       <calcMethod>MISSING</calcMethod>
       <samplingInstrument>MISSING</samplingInstrument>
       <analyzingInstrument>MISSING</analyzingInstrument>
-      <phscale>MISSING</phscale>
-      <temperatureMeasure>MISSING </temperatureMeasure>
+      <duration/>
       <detailedInfo>2: Acceptable, 4: Not measured with missing value "-999" on the left.</detailedInfo>
       <replicate>MISSING</replicate>
-      <standard>
-         <description>MISSING</description>
-         <frequency>MISSING</frequency>
-         <standardphvalues>MISSING</standardphvalues>
-         <temperatureStandardization>MISSING</temperatureStandardization>
-      </standard>
-      <temperatureCorrectionMethod>MISSING</temperatureCorrectionMethod>
-      <phReportTemperature>MISSING</phReportTemperature>
       <uncertainty>MISSING</uncertainty>
       <flag>MISSING</flag>
       <methodReference>MISSING</methodReference>
+      <biologicalSubject>MISSING</biologicalSubject>
+      <speciesID>MISSING</speciesID>
+      <lifeStage>MISSING</lifeStage>
       <researcherName>MISSING</researcherName>
       <researcherInstitution>MISSING</researcherInstitution>
-      <internal>MISSING</internal>
+      <internal>0</internal>
    </variable>
-   	  ****************************The value of variable SSS ******************************************
-      <variable>
-      <fullname>MISSING</fullname>
+   <variable>
       <abbrev>SSS</abbrev>
+      <fullname>MISSING</fullname>
       <observationType>MISSING</observationType>
       <insitu>MISSING</insitu>
-      <manipulationMethod>MISSING</manipulationMethod>
+      <unit/>
       <measured>MISSING</measured>
       <calcMethod>MISSING</calcMethod>
       <samplingInstrument>MISSING</samplingInstrument>
       <analyzingInstrument>MISSING</analyzingInstrument>
-      <phscale>MISSING</phscale>
-      <temperatureMeasure>MISSING </temperatureMeasure>
+      <duration/>
       <detailedInfo>Sea surface salinity (psu)</detailedInfo>
       <replicate>MISSING</replicate>
-      <standard>
-         <description>MISSING</description>
-         <frequency>MISSING</frequency>
-         <standardphvalues>MISSING</standardphvalues>
-         <temperatureStandardization>MISSING</temperatureStandardization>
-      </standard>
-      <temperatureCorrectionMethod>MISSING</temperatureCorrectionMethod>
-      <phReportTemperature>MISSING</phReportTemperature>
       <uncertainty>MISSING</uncertainty>
       <flag>MISSING</flag>
       <methodReference>MISSING</methodReference>
+      <biologicalSubject>MISSING</biologicalSubject>
+      <speciesID>MISSING</speciesID>
+      <lifeStage>MISSING</lifeStage>
       <researcherName>MISSING</researcherName>
       <researcherInstitution>MISSING</researcherInstitution>
-      <internal>MISSING</internal>
+      <internal>0</internal>
    </variable>
-   	  ****************************The value of variable F ******************************************
-      <variable>
-      <fullname>MISSING</fullname>
+   <variable>
       <abbrev>F</abbrev>
+      <fullname>MISSING</fullname>
       <observationType>MISSING</observationType>
       <insitu>MISSING</insitu>
-      <manipulationMethod>MISSING</manipulationMethod>
+      <unit/>
       <measured>MISSING</measured>
       <calcMethod>MISSING</calcMethod>
       <samplingInstrument>MISSING</samplingInstrument>
       <analyzingInstrument>MISSING</analyzingInstrument>
-      <phscale>MISSING</phscale>
-      <temperatureMeasure>MISSING </temperatureMeasure>
+      <duration/>
       <detailedInfo>2: Acceptable, 4: Not measured with missing value "-999" on the left.</detailedInfo>
       <replicate>MISSING</replicate>
-      <standard>
-         <description>MISSING</description>
-         <frequency>MISSING</frequency>
-         <standardphvalues>MISSING</standardphvalues>
-         <temperatureStandardization>MISSING</temperatureStandardization>
-      </standard>
-      <temperatureCorrectionMethod>MISSING</temperatureCorrectionMethod>
-      <phReportTemperature>MISSING</phReportTemperature>
       <uncertainty>MISSING</uncertainty>
       <flag>MISSING</flag>
       <methodReference>MISSING</methodReference>
+      <biologicalSubject>MISSING</biologicalSubject>
+      <speciesID>MISSING</speciesID>
+      <lifeStage>MISSING</lifeStage>
       <researcherName>MISSING</researcherName>
       <researcherInstitution>MISSING</researcherInstitution>
-      <internal>MISSING</internal>
+      <internal>0</internal>
    </variable>
 </metadata>
