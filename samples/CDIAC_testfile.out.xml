@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><metadata xmlns:xalan="http://xml.apache.org/xslt" xmlns:java="http://xml.apache.org/xalan/java" xmlns="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="UTF-8"?><metadata xmlns:xalan="http://xml.apache.org/xslt" xmlns="http://www.w3.org/1999/xhtml">
    <submissiondate/>
    <related>
       <name/>
@@ -61,8 +61,7 @@
    <reference>Inoue, H. Y., Ishii, M., Matsueda, H., Saito, S., Midorikawa, T., and Nemoto, K. 1999. MRI measurements of partial pressure of CO2 in surface waters of the Pacific during 1968 to 1970: re-evaluation and comparison of data with those of 1980s and 1990s. Tellus, 51B, 830-848.</reference>
    <suppleInfo>MISSING</suppleInfo>
    <link_landing>MISSING</link_landing>
-   <link_download>MISSING</link_download>
-   <variable>
+   <link_download>MISSING</link_download>Research Cruise*******************************************<variable>
       <abbrev>Cruise</abbrev>
       <fullname>MISSING</fullname>
       <observationType>MISSING</observationType>
@@ -178,53 +177,27 @@
       <internal>0</internal>
    </variable>
    <variable>
-      <fullname/>
       <abbrev>xCO2a</abbrev>
-      <observationType/>
-      <insitu/>
-      <manipulationMethod/>
+      <fullname>MISSING</fullname>
+      <observationType>MISSING</observationType>
+      <insitu>MISSING</insitu>
       <unit/>
-      <measured/>
-      <calcMethod/>
-      <samplingInstrument/>
-      <locationSeawaterIntake/>
-      <DepthSeawaterIntake/>
-      <analyzingInstrument/>
+      <measured>MISSING</measured>
+      <calcMethod>MISSING</calcMethod>
+      <samplingInstrument>MISSING</samplingInstrument>
+      <analyzingInstrument>MISSING</analyzingInstrument>
+      <duration/>
       <detailedInfo>Mole fraction of CO2 in ambient atmosphere (micro mol/mol in dry air)</detailedInfo>
-      <equilibrator>
-         <type/>
-         <volume/>
-         <vented/>
-         <waterFlowRate/>
-         <gasFlowRate/>
-         <temperatureEquilibratorMethod/>
-         <pressureEquilibratorMethod/>
-         <dryMethod/>
-      </equilibrator>
-      <gasDetector>
-         <manufacturer/>
-         <model/>
-         <resolution/>
-         <uncertainty/>
-      </gasDetector>
-      <standardization>
-         <description/>
-         <frequency/>
-         <standardgas>
-            <manufacturer/>
-            <concentration/>
-            <uncertainty/>
-         </standardgas>
-      </standardization>
-      <waterVaporCorrection/>
-      <temperatureCorrection/>
-      <co2ReportTemperature/>
-      <uncertainty/>
-      <flag/>
-      <methodReference/>
-      <researcherName/>
-      <researcherInstitution/>
-      <internal>4</internal>
+      <replicate>MISSING</replicate>
+      <uncertainty>MISSING</uncertainty>
+      <flag>MISSING</flag>
+      <methodReference>MISSING</methodReference>
+      <biologicalSubject>MISSING</biologicalSubject>
+      <speciesID>MISSING</speciesID>
+      <lifeStage>MISSING</lifeStage>
+      <researcherName>MISSING</researcherName>
+      <researcherInstitution>MISSING</researcherInstitution>
+      <internal>0</internal>
    </variable>
    <variable>
       <abbrev>F</abbrev>
@@ -250,53 +223,27 @@
       <internal>0</internal>
    </variable>
    <variable>
-      <fullname/>
       <abbrev>xCO2eq</abbrev>
-      <observationType/>
-      <insitu/>
-      <manipulationMethod/>
+      <fullname>MISSING</fullname>
+      <observationType>MISSING</observationType>
+      <insitu>MISSING</insitu>
       <unit/>
-      <measured/>
-      <calcMethod/>
-      <samplingInstrument/>
-      <locationSeawaterIntake/>
-      <DepthSeawaterIntake/>
-      <analyzingInstrument/>
+      <measured>MISSING</measured>
+      <calcMethod>MISSING</calcMethod>
+      <samplingInstrument>MISSING</samplingInstrument>
+      <analyzingInstrument>MISSING</analyzingInstrument>
+      <duration/>
       <detailedInfo>Mole fraction of CO2 in air from equilibrator (micro mol/mol in dry air)</detailedInfo>
-      <equilibrator>
-         <type/>
-         <volume/>
-         <vented/>
-         <waterFlowRate/>
-         <gasFlowRate/>
-         <temperatureEquilibratorMethod/>
-         <pressureEquilibratorMethod/>
-         <dryMethod/>
-      </equilibrator>
-      <gasDetector>
-         <manufacturer/>
-         <model/>
-         <resolution/>
-         <uncertainty/>
-      </gasDetector>
-      <standardization>
-         <description/>
-         <frequency/>
-         <standardgas>
-            <manufacturer/>
-            <concentration/>
-            <uncertainty/>
-         </standardgas>
-      </standardization>
-      <waterVaporCorrection/>
-      <temperatureCorrection/>
-      <co2ReportTemperature/>
-      <uncertainty/>
-      <flag/>
-      <methodReference/>
-      <researcherName/>
-      <researcherInstitution/>
-      <internal>4</internal>
+      <replicate>MISSING</replicate>
+      <uncertainty>MISSING</uncertainty>
+      <flag>MISSING</flag>
+      <methodReference>MISSING</methodReference>
+      <biologicalSubject>MISSING</biologicalSubject>
+      <speciesID>MISSING</speciesID>
+      <lifeStage>MISSING</lifeStage>
+      <researcherName>MISSING</researcherName>
+      <researcherInstitution>MISSING</researcherInstitution>
+      <internal>0</internal>
    </variable>
    <variable>
       <abbrev>F</abbrev>
@@ -505,4 +452,5 @@
       <researcherInstitution>MISSING</researcherInstitution>
       <internal>0</internal>
    </variable>
+   <update>2016-12-31 19:52:04</update>
 </metadata>
