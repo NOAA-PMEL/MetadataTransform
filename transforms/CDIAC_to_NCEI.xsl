@@ -18,7 +18,7 @@
 <!-- 	<xsl:preserve-space elements="metadata" /> -->
 
 	<xsl:template match="x_tags">
-    <metadata>
+   <metadata>
 
    <submissiondate></submissiondate>
 
