@@ -35,7 +35,7 @@
 	<city></city>
 	<administrativeArea></administrativeArea>
 	<zip></zip>
-	<country></country>
+	<country> </country>
 	<phone><xsl:value-of select="Phone" />
 	</phone>
 	<email><xsl:value-of select="Email" />
