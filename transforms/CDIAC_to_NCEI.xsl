@@ -23,25 +23,25 @@
    <submissiondate></submissiondate>
 
    <related>
-          <name></name>
-          <link></link>
+          <name>MISSING</name>
+          <link>MISSING</link>
    </related>
 	<xsl:for-each select="User">
    	<person>
 	<name><xsl:value-of select="Name" /></name>
 	<organization><xsl:value-of select="Organization" /></organization>
 	<deliverypoint1><xsl:value-of select="Address" /></deliverypoint1>
-	<deliverypoint2></deliverypoint2>
-	<city></city>
-	<administrativeArea></administrativeArea>
-	<zip></zip>
-	<country> </country>
+	<deliverypoint2>MISSING</deliverypoint2>
+	<city>MISSING</city>
+	<administrativeArea>MISSING</administrativeArea>
+	<zip>MISSING</zip>
+	<country>MISSING</country>
 	<phone><xsl:value-of select="Phone" />
 	</phone>
 	<email><xsl:value-of select="Email" />
 	</email>
-	<ID></ID>
-	<IDtype></IDtype>
+	<ID>MISSING</ID>
+	<IDtype>MISSING</IDtype>
 	</person>
    </xsl:for-each>
 
@@ -49,15 +49,15 @@
       <name><xsl:value-of select="User/Name" /></name>
       <organization><xsl:value-of select="User/Organization" /></organization>
       <deliverypoint1><xsl:value-of select="User/Address" /></deliverypoint1>
-      <deliverypoint2></deliverypoint2>
-      <city></city>
-      <administrativeArea></administrativeArea>
-      <zip></zip>
-      <country></country>
+      <deliverypoint2>MISSING</deliverypoint2>
+      <city>MISSING</city>
+      <administrativeArea>MISSING</administrativeArea>
+      <zip>MISSING</zip>
+      <country>MISSING</country>
       <phone><xsl:value-of select="User/Phone" /></phone>
       <email><xsl:value-of select="User/Email" /></email>
-      <ID></ID>
-      <IDtype></IDtype>
+      <ID>MISSING</ID>
+      <IDtype>MISSING</IDtype>
    </datasubmitter>
    
    <startdate><xsl:value-of select="Cruise_Info/Experiment/Cruise/Temporal_Coverage/Start_Date"></xsl:value-of></startdate>
