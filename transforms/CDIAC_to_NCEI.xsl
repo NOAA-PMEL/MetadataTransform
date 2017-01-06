@@ -107,8 +107,8 @@
    	<xsl:when test="contains($experiment_type, 'cruise')">autonomous</xsl:when>
    	<xsl:when test="contains($experiment_type, 'ship')">autonomous</xsl:when>
     <xsl:when test="contains($experiment_type, 'underway')">autonomous</xsl:when>
-    <xsl:when test="contains($experiment_type, 'moored buoy')">discrete</xsl:when>
-    <xsl:when test="contains($experiment_type, 'Moored Buoy')">discrete</xsl:when>
+    <xsl:when test="contains($experiment_type, 'moored buoy')">autonomous</xsl:when>
+    <xsl:when test="contains($experiment_type, 'Moored Buoy')">autonomous</xsl:when>
     <xsl:otherwise></xsl:otherwise>
    </xsl:choose>
  </xsl:variable>
@@ -235,18 +235,14 @@
 <!--    <xsl:when test="contains($var, 'pCO2') or contains($var, 'x CO2')"> -->
 	<xsl:when test="(contains($var, 'pCO2') or contains($var, 'fCO2') or contains($var, 'xCO2')) and contains($obs_type, 'autonomous')">
       <variable>
-      <fullname>MISSING</fullname>
-      <abbrev><xsl:value-of select="$var"/></abbrev>
-      <observationType>MISSING</observationType>
-      <insitu>MISSING</insitu>
-      <manipulationMethod>MISSING</manipulationMethod>
-      <unit><xsl:value-of select="Unit_of_Variable"/></unit>
-      <measured>MISSING</measured>
-      <calcMethod>MISSING</calcMethod>
-      <samplingInstrument>MISSING</samplingInstrument>
+      <fullname>Partial pressure or fugacity of carbon dioxide in seawater</fullname>
+<!--       <abbrev><xsl:value-of select="$var"/></abbrev> -->
+      <observationType>Surface Underway or Mooring</observationType>
+      <unit><xsl:value-of select="Unit_of_Variable"/>  uatm</unit>
+      <samplingInstrument>MISSING Flow-through pump - NB - check with Kevin</samplingInstrument>
       <locationSeawaterIntake><xsl:value-of select="$method_description/Equilibrator_Design/Location_of_Sea_Water_Intake"/></locationSeawaterIntake>
       <DepthSeawaterIntake><xsl:value-of select="$method_description/Equilibrator_Design/Depth_of_Sea_Water_Intake"/></DepthSeawaterIntake>
-      <analyzingInstrument>MISSING</analyzingInstrument>
+      <analyzingInstrument>MISSING Map to CO2 sensor model and manufaturer</analyzingInstrument>
       <detailedInfo><xsl:value-of select="Description_of_Variable"/>
       <xsl:text> </xsl:text>
       <xsl:value-of select="$method_description/Equilibrator_Design/System_Manufacturer_Description"/>
@@ -291,7 +287,25 @@
          <vented><xsl:value-of select="$method_description/Equilibrator_Design/Vented"/></vented>
          <waterFlowRate><xsl:value-of select="$method_description/Equilibrator_Design/Water_Flow_Rate"/></waterFlowRate>
          <gasFlowRate><xsl:value-of select="$method_description/Equilibrator_Design/Headspace_Gas_Flow_Rate"/></gasFlowRate>
-         <temperatureEquilibratorMethod>MISSING</temperatureEquilibratorMethod>
+         <temperatureEquilibratorMethod>
+        <xsl:value-of select="$method_description/Equilibrator_Design/System_Manufacturer_Description"/>
+        <xsl:text> </xsl:text>
+   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Location"/>
+   		<xsl:text> </xsl:text>
+   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Manufacturer"/>
+   		<xsl:text> </xsl:text>
+   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Model"/>
+   		<xsl:text> </xsl:text>
+   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Accuracy"/>
+   		<xsl:text> </xsl:text>
+   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Precision"/>
+   		<xsl:text> </xsl:text>
+   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Calibration"/>
+   		<xsl:text> </xsl:text>
+   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Warming"/>
+   		<xsl:text> </xsl:text>
+   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Other_Comments"/>
+   		</temperatureEquilibratorMethod>
          <pressureEquilibratorMethod>
          <xsl:value-of select="$method_description/Equilibrator_Pressure/Location"/>
    		<xsl:text> </xsl:text>
@@ -315,26 +329,21 @@
       <gasDetector>
          <manufacturer><xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Manufacturer"/></manufacturer>
          <model><xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Model"/></model>
-         <resolution><xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Resolution_Air"/></resolution>
-         <uncertainty><xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Uncertainty_Air"/></uncertainty>
+         <resolution><xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Resolution_Air"/>
+         <xsl:text> </xsl:text>
+         <xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Resolution_Water"/>
+         </resolution>
+         <uncertainty><xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Uncertainty_Air"/>
+         <xsl:text> </xsl:text>
+         <xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Uncertainty_Water"/>
+         </uncertainty>
       </gasDetector>
       <standardization>
-         <description></description>
-         <frequency>MISSING</frequency>
          <standardgas>
             <manufacturer><xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Manufacturer_of_Calibration_Gas"/></manufacturer>
-            <concentration>MISSING</concentration>
-            <uncertainty>MISSING</uncertainty>
          </standardgas>
       </standardization>
-      <waterVaporCorrection>MISSING</waterVaporCorrection>
-      <temperatureCorrection>MISSING</temperatureCorrection>
-      <co2ReportTemperature>MISSING</co2ReportTemperature>
-      <uncertainty>MISSING</uncertainty>
-      <flag>MISSING</flag>
       <methodReference><xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Method_References"/></methodReference>
-      <researcherName>MISSING</researcherName>
-      <researcherInstitution>MISSING</researcherInstitution>
       <internal>4</internal>
    </variable>
    
@@ -355,24 +364,7 @@
       <DepthSeawaterIntake><xsl:value-of select="$method_description/Equilibrator_Design/Depth_of_Sea_Water_Intake"/></DepthSeawaterIntake>
       <analyzingInstrument>MISSING</analyzingInstrument>
       <detailedInfo><xsl:value-of select="Description_of_Variable"/>
-      <xsl:text> </xsl:text>
-      <xsl:value-of select="$method_description/Equilibrator_Design/System_Manufacturer_Description"/>
-       <xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Location"/>
-   		<xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Manufacturer"/>
-   		<xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Model"/>
-   		<xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Accuracy"/>
-   		<xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Precision"/>
-   		<xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Calibration"/>
-   		<xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Warming"/>
-   		<xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Other_Comments"/>
+     
    		<xsl:text> </xsl:text>
    		<xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Frequency"/>
    		<xsl:text> </xsl:text>
