@@ -23,7 +23,7 @@
    <submissiondate></submissiondate>
 
    <related>
-          <name>MISSING</name>
+          <name></name>
           <link>MISSING</link>
    </related>
 	<xsl:for-each select="User">
