@@ -245,41 +245,47 @@
       <analyzingInstrument>MISSING Map to CO2 sensor model and manufaturer</analyzingInstrument>
       <detailedInfo><xsl:value-of select="Description_of_Variable"/>
       <xsl:text> </xsl:text>
-      <xsl:value-of select="$method_description/Equilibrator_Design/System_Manufacturer_Description"/>
-       <xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Location"/>
-   		<xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Manufacturer"/>
-   		<xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Model"/>
-   		<xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Accuracy"/>
-   		<xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Precision"/>
-   		<xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Calibration"/>
-   		<xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Warming"/>
-   		<xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/Equilibrator_Temperature/Other_Comments"/>
-   		<xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Frequency"/>
-   		<xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Measurement_Method"/>
-   		<xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Details_Co2_Sensing"/>
-   		<xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Analysis_of_Co2_Comparison"/>
-   		<xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Measured_Co2_Params"/>
-   		<xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/No_of_Non_Zero_Gas_Stds"/>
-   		<xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/CO2_Sensor_Calibration"/>
-   		<xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Sensor_Calibration"/>
-   		<xsl:text> </xsl:text>
-   		<xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Environmental_Control"/>
+<!--       <xsl:apply-templates match="Method_Description/Equilibrator_Temperature"> -->
+      <xsl:apply-templates match="Investigator">
+      	<xsl:copy-of select="*"></xsl:copy-of>
+      </xsl:apply-templates>
+
+
+<!--       <xsl:value-of select="$method_description/Equilibrator_Design/System_Manufacturer_Description"/> -->
+<!--        <xsl:text> </xsl:text> -->
+<!--    		<xsl:value-of select="$method_description/Equilibrator_Temperature/Location"/> -->
+<!--    		<xsl:text> </xsl:text> -->
+<!--    		<xsl:value-of select="$method_description/Equilibrator_Temperature/Manufacturer"/> -->
+<!--    		<xsl:text> </xsl:text> -->
+<!--    		<xsl:value-of select="$method_description/Equilibrator_Temperature/Model"/> -->
+<!--    		<xsl:text> </xsl:text> -->
+<!--    		<xsl:value-of select="$method_description/Equilibrator_Temperature/Accuracy"/> -->
+<!--    		<xsl:text> </xsl:text> -->
+<!--    		<xsl:value-of select="$method_description/Equilibrator_Temperature/Precision"/> -->
+<!--    		<xsl:text> </xsl:text> -->
+<!--    		<xsl:value-of select="$method_description/Equilibrator_Temperature/Calibration"/> -->
+<!--    		<xsl:text> </xsl:text> -->
+<!--    		<xsl:value-of select="$method_description/Equilibrator_Temperature/Warming"/> -->
+<!--    		<xsl:text> </xsl:text> -->
+<!--    		<xsl:value-of select="$method_description/Equilibrator_Temperature/Other_Comments"/> -->
+<!--    		<xsl:text> </xsl:text> -->
+<!--    		<xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Frequency"/> -->
+<!--    		<xsl:text> </xsl:text> -->
+<!--    		<xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Measurement_Method"/> -->
+<!--    		<xsl:text> </xsl:text> -->
+<!--    		<xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Details_Co2_Sensing"/> -->
+<!--    		<xsl:text> </xsl:text> -->
+<!--    		<xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Analysis_of_Co2_Comparison"/> -->
+<!--    		<xsl:text> </xsl:text> -->
+<!--    		<xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Measured_Co2_Params"/> -->
+<!--    		<xsl:text> </xsl:text> -->
+<!--    		<xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/No_of_Non_Zero_Gas_Stds"/> -->
+<!--    		<xsl:text> </xsl:text> -->
+<!--    		<xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/CO2_Sensor_Calibration"/> -->
+<!--    		<xsl:text> </xsl:text> -->
+<!--    		<xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Sensor_Calibration"/> -->
+<!--    		<xsl:text> </xsl:text> -->
+<!--    		<xsl:value-of select="$method_description/CO2_Sensors/CO2_Sensor/Environmental_Control"/> -->
       </detailedInfo>
       <equilibrator>
          <type><xsl:value-of select="$method_description/Equilibrator_Design/Equilibrator_Type"/></type>
