@@ -17,7 +17,7 @@
 		indent="yes" xalan:indent-amount="3" />
 <!-- 	<xsl:preserve-space elements="metadata" /> -->
 
-	<xsl:template match="x_tags">
+<!-- 	<xsl:template match="x_tags"> -->
    <metadata>
 
    <submissiondate></submissiondate>
@@ -245,9 +245,9 @@
       <analyzingInstrument>MISSING Map to CO2 sensor model and manufaturer</analyzingInstrument>
       <detailedInfo><xsl:value-of select="Description_of_Variable"/>
       <xsl:text> </xsl:text>
-<!--       <xsl:apply-templates match="Method_Description/Equilibrator_Temperature"> -->
-      <xsl:apply-templates match="Investigator">
-      	<xsl:copy-of select="*"></xsl:copy-of>
+
+      <xsl:apply-templates select="Investigator">
+      	<xsl:copy-of select="@*|node()"></xsl:copy-of>
       </xsl:apply-templates>
 
 
@@ -476,7 +476,7 @@
    </xsl:for-each>
 <update><xsl:value-of select="java:format(java:java.text.SimpleDateFormat.new('yyyy-MM-dd HH:mm:ss'), java:java.util.Date.new())"/></update>
 </metadata>
-</xsl:template>
+<!-- </xsl:template> -->
 	
 </xsl:stylesheet>
 
