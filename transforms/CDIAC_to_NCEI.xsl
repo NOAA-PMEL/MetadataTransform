@@ -17,7 +17,7 @@
 		indent="yes" xalan:indent-amount="3" />
 <!-- 	<xsl:preserve-space elements="metadata" /> -->
 
-<!-- 	<xsl:template match="x_tags"> -->
+<xsl:template match="x_tags">
    <metadata>
 
    <submissiondate></submissiondate>
@@ -100,7 +100,7 @@
    
    <link_landing>MISSING</link_landing>
    <link_download>MISSING</link_download>
-   <xsl:variable name="experiment_type" select="Cruise_Info/Experiment/Experiment_Type"/>
+   <xsl:variable name="experiment_type" select="x_tags/Cruise_Info/Experiment/Experiment_Type"/>
    <xsl:value-of select="$experiment_type"/><xsl:text>*******************************************</xsl:text>
    <xsl:variable name="obs_type">
    <xsl:choose>
@@ -476,7 +476,7 @@
    </xsl:for-each>
 <update><xsl:value-of select="java:format(java:java.text.SimpleDateFormat.new('yyyy-MM-dd HH:mm:ss'), java:java.util.Date.new())"/></update>
 </metadata>
-<!-- </xsl:template> -->
+</xsl:template>
 	
 </xsl:stylesheet>
 
