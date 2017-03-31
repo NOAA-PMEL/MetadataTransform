@@ -100,7 +100,7 @@
    
    <link_landing>MISSING</link_landing>
    <link_download>MISSING</link_download>
-   <xsl:variable name="experiment_type" select="x_tags/Cruise_Info/Experiment/Experiment_Type"/>
+   <xsl:variable name="experiment_type" select="Cruise_Info/Experiment/Experiment_Type"/>
    <xsl:value-of select="$experiment_type"/><xsl:text>*******************************************</xsl:text>
    <xsl:variable name="obs_type">
    <xsl:choose>
@@ -119,8 +119,8 @@
 
    <xsl:variable name="var"><xsl:value-of select="Variable_Name"/></xsl:variable>
    
-<!--    <xsl:if test="contains($var, 'CO2')"> -->
-<!--    	"*********************** WE Found CO2 **********************************************" -->
+<!--    <xsl:if test="contains($var, 'xCO2')"> -->
+<!--    	"*********************** WE Found xCO2 **********************************************" -->
 <!--    </xsl:if> -->
    <xsl:choose>
     <xsl:when test="contains($var, 'DIC') or contains($var, 'Dissolved Inorganic Carbon')">
@@ -232,11 +232,9 @@
    </variable>
    </xsl:when>
    
-<!--    <xsl:when test="contains($var, 'pCO2') or contains($var, 'x CO2')"> -->
 	<xsl:when test="(contains($var, 'pCO2') or contains($var, 'fCO2') or contains($var, 'xCO2')) and contains($obs_type, 'autonomous')">
       <variable>
       <fullname>Partial pressure or fugacity of carbon dioxide in seawater</fullname>
-<!--       <abbrev><xsl:value-of select="$var"/></abbrev> -->
       <observationType>Surface Underway or Mooring</observationType>
       <unit><xsl:value-of select="Unit_of_Variable"/>  uatm</unit>
       <samplingInstrument>MISSING Flow-through pump - NB - check with Kevin</samplingInstrument>
