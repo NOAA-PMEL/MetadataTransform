@@ -213,7 +213,11 @@
       <analyzingInstrument>MISSING</analyzingInstrument>
       <phscale>MISSING</phscale>
       <temperatureMeasure>MISSING</temperatureMeasure>
-      <detailedInfo><xsl:value-of select="Description_of_Variable"/></detailedInfo>      
+      <detailedInfo>
+<!--       Test code -->
+
+      
+      <xsl:value-of select="Description_of_Variable"/></detailedInfo>      
       <replicate>MISSING</replicate>
       <standard>
          <description>MISSING</description>
@@ -244,9 +248,9 @@
       <detailedInfo><xsl:value-of select="Description_of_Variable"/>
       <xsl:text> </xsl:text>
 
-      <xsl:apply-templates select="Investigator">
+      <xsl:template match="Investigator">
       	<xsl:copy-of select="@*|node()"></xsl:copy-of>
-      </xsl:apply-templates>
+      </xsl:template>
 
 
 <!--       <xsl:value-of select="$method_description/Equilibrator_Design/System_Manufacturer_Description"/> -->
@@ -456,7 +460,11 @@
       <samplingInstrument>MISSING</samplingInstrument>
       <analyzingInstrument>MISSING</analyzingInstrument>
       <duration></duration>
-     <detailedInfo><xsl:value-of select="Description_of_Variable"/></detailedInfo>
+     <detailedInfo>
+      <xsl:apply-templates select="Investigator">
+      	<xsl:copy-of select="@*|node()"></xsl:copy-of>
+      </xsl:apply-templates>
+     <xsl:value-of select="Description_of_Variable"/></detailedInfo>
       <replicate>MISSING</replicate>
       <uncertainty>MISSING</uncertainty>
       <flag>MISSING</flag>
